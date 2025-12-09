@@ -5,7 +5,7 @@
   "description": "EvoCloud aims to provide a platform as a product to streamline cloud-native application deployment and management in public cloud, intranet, edge and air-gapped environment.",
   "colors": {
     "primary": "#023fff",
-    "light": "#07C983",
+    "light": "#e5e7eb",
     "dark": "#15803D"
   },
   "logo": {
