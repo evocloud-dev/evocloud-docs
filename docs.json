@@ -1,0 +1,205 @@
+{
+  "theme": "maple",
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "EvoCloud Platform",
+  "description": "EvoCloud aims to provide a platform as a product to streamline cloud-native application deployment and management in public cloud, intranet, edge and air-gapped environment.",
+  "colors": {
+    "primary": "#023fff",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://docs.evocloud.dev"
+  },
+  "favicon": "/favicon.svg",
+
+  "banner": {
+    "content": "EvoCloud Informational banner.",
+    "dismissible": true
+  },
+
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:maintainers@evocloud.dev"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Visit website",
+      "href": "https://www.evocloud.dev"
+    }
+  },
+
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "EvoCloud Guides",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "evocloud-guides/overview/what-is-evocloud",
+              "evocloud-guides/overview/why-evocloud",
+              "evocloud-guides/overview/feature-and-capability"
+            ]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
+              "evocloud-guides/getting-started/workstation-setup",
+              "evocloud-guides/getting-started/cloud-platform-requirement",
+              "evocloud-guides/getting-started/production-sizing",
+              "evocloud-guides/getting-started/development-sizing"
+            ]
+          },
+          {
+            "group": "Platform Specific Installation",
+            "pages": [
+              {
+                "group": "EvoCloud on AWS Cloud",
+                "pages": [
+                  "evocloud-guides/deployment/aws/automation-server",
+                  "evocloud-guides/deployment/aws/identity-server",
+                  "evocloud-guides/deployment/aws/identity-replica-server",
+                  "evocloud-guides/deployment/aws/cluster-manager",
+                  "evocloud-guides/deployment/aws/cluster-standalone",
+                  "evocloud-guides/deployment/aws/gitlab-server",
+                  "evocloud-guides/deployment/aws/gitlab-runner",
+                  "evocloud-guides/deployment/aws/harbor-repository"
+                ]
+              },
+              {
+                "group": "EvoCloud on Google Cloud",
+                "pages": [
+                  "evocloud-guides/deployment/gcp/automation-server",
+                  "evocloud-guides/deployment/gcp/identity-server",
+                  "evocloud-guides/deployment/gcp/identity-replica-server",
+                  "evocloud-guides/deployment/gcp/cluster-manager",
+                  "evocloud-guides/deployment/gcp/cluster-standalone",
+                  "evocloud-guides/deployment/gcp/gitlab-server",
+                  "evocloud-guides/deployment/gcp/gitlab-runner",
+                  "evocloud-guides/deployment/gcp/harbor-repository"
+                ]
+              },
+              {
+                "group": "EvoCloud on Hetzner Cloud",
+                "pages": [
+                  "evocloud-guides/deployment/hetzner/automation-server",
+                  "evocloud-guides/deployment/hetzner/identity-server",
+                  "evocloud-guides/deployment/hetzner/identity-replica-server",
+                  "evocloud-guides/deployment/hetzner/cluster-manager",
+                  "evocloud-guides/deployment/hetzner/cluster-standalone",
+                  "evocloud-guides/deployment/hetzner/gitlab-server",
+                  "evocloud-guides/deployment/hetzner/gitlab-runner",
+                  "evocloud-guides/deployment/hetzner/harbor-repository"
+                ]
+              },
+              {
+                "group": "EvoCloud on Oracle Cloud",
+                "pages": [
+                  "evocloud-guides/deployment/oci/automation-server",
+                  "evocloud-guides/deployment/oci/identity-server",
+                  "evocloud-guides/deployment/oci/identity-replica-server",
+                  "evocloud-guides/deployment/oci/cluster-manager",
+                  "evocloud-guides/deployment/oci/cluster-manager-standalone",
+                  "evocloud-guides/deployment/oci/gitlab-server",
+                  "evocloud-guides/deployment/oci/gitlab-runner",
+                  "evocloud-guides/deployment/oci/harbor-repository"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Post Deployment Configuration",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Security and Compliance",
+            "pages": [
+              "ai-tools/compliance-scans",
+              "ai-tools/secrets-management",
+              "ai-tools/certificates-management"
+            ]
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "ai-tools/release-notes",
+              "ai-tools/cheatsheets",
+              "ai-tools/roadmap-and-vision"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://www.evocloud.dev",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://www.evocloud.dev",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+
+  "footer": {
+    "socials": {
+      "website": "https://www.evocloud.dev",
+      "github": "https://github.com/evocloud-dev",
+      "linkedin": "https://linkedin.com/company/evocloud-dev",
+      "youtube": "https://www.youtube.com",
+      "x": "https://x.com/evocloud_dev",
+      "bluesky": "https://www.bluesky.com",
+      "telegram": "https://t.me/evocloud_paas",
+      "slack": "https://evocloudworkspace.slack.com"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  }
+
+}
