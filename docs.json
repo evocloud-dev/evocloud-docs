@@ -11,7 +11,7 @@
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg",
-    "href": "https://docs.evocloud.dev"
+    "href": "https://www.evocloud.dev"
   },
   "favicon": "/favicon.svg",
 
@@ -43,7 +43,7 @@
             "group": "Overview",
             "pages": [
               "evocloud-guides/overview/what-is-evocloud",
-              "evocloud-guides/overview/why-evocloud",
+              "evocloud-guides/overview/evocloud-architecture",
               "evocloud-guides/overview/feature-and-capability"
             ]
           },
